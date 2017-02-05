@@ -1,5 +1,5 @@
 a   {margin: 40px;}
-div { 
+ div{ 
 	height: 100px; 
 	width: 100px; 
 	border: 4px solid red;
@@ -13,6 +13,27 @@ div {
 	font-size: 75px;
 	color: blue;
 	position: fixed;
+}
+#inside2 {
+	font-size: 75px;
+	color: yellow;
+	position: fixed;
+	top: 150px;
+
+/*}
+#inside3 {
+	font-size: 75px;
+	color: blue;
+	position: fixed;
+	top: 282px;
+
+}
+#inside4 {
+	font-size: 75px;
+	color: yellow;
+	position: fixed;
+	top: 412px;*/
+
 }
 #box-2 {
 	height: 200px; 
