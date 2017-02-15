@@ -1,14 +1,656 @@
 
-.square{
+.square {/*
 	height:125px;
 	width:125px;
 	float: left;
 	background-color: blue;
 	margin:5px;
+	cursor: help;*/
 }
+a { color: white; }
 
-#first hover {
-	background: yellow;
+#one {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
 	cursor: help;
-	
+
+} 
+#two {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: crosshair;
+
+} 
+#three {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#four {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#five {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: zoom-in;
+
+} 
+#six {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: vertical-text;
+
+} 
+#seven {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: no-drop;
+
+} 
+#eight {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#nine {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#ten {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#eleven {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#twelve {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: vertical-text;
+
+} 
+#thirteen {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#fourteen {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: crosshair;
+
+} 
+#fifteen {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#sixteen {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#seventeen{
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: zoom-in;
+
+} 
+#eighteen {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nw-resize;
+
+} 
+#nineteen {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#twenty {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: col-resize;
+
+} 
+#twentyone {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#twentytwo {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#twentythree {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: ew-resize;
+
+} 
+#twentyfour {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#twentyfive {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#twentysix {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: e-resize;
+
+} 
+#twentyseven {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#twentyeight {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#twentynine {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: vertical-text;
+
+} 
+#thirty {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#thirtyone {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: crosshair;
+
+} 
+#thirtytwo{
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#thirtythree {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: vertical-text;
+
+} 
+#thirtyfour{
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: zoom-in;
+
+} 
+#thirtyfive {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nw-resize;
+
+} 
+#thirtysix {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
 }
+#t7 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#t8 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: crosshair;
+
+} 
+#t9 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#f {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#f2 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: zoom-in;
+
+} 
+#f3 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: vertical-text;
+
+} 
+#f4 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: no-drop;
+
+} 
+#f5 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#f6 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nwse-resize;
+
+} 
+#f7 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#f8 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#f9 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: vertical-text;
+
+} 
+#ff1 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#ff2 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: ne-resize;
+
+} 
+#ff3 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#ff4 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#ff5{
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: zoom-in;
+
+} 
+#ff6 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nw-resize;
+
+} 
+#ff6{
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#ff7 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: col-resize;
+
+} 
+#ff8 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#ff9 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#s1 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: pointer;
+
+} 
+#s2 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#s3 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nesw-resize;
+
+} 
+#s4 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: crosshair;
+
+} 
+#s5 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#s6 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#s7 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: vertical-text;
+
+} 
+#s8 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;
+
+} 
+#s9 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: crosshair;
+
+} 
+#ss1{
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: wait;
+
+} 
+#ss2 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: not-allowed;
+
+} 
+#ss3{
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: zoom-in;
+
+} 
+#ss4 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: nw-resize;
+
+} 
+#ss5 {
+	height: 100px;
+	width:100px;
+	float: left;
+	background-color: white;
+	margin:5px;
+	cursor: help;

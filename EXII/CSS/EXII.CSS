@@ -15,7 +15,7 @@ a   {margin: 40px;}
 	position: fixed;
 }
 #inside2 {
-	font-size: 75px;
+	font-size: 100px;
 	color: yellow;
 	position: fixed;
 	top: 150px;
@@ -57,7 +57,7 @@ a   {margin: 40px;}
 	background: yellow; 
 	opacity: 40%;
 	cursor: help;
-	cursor: s-resize; 
+	 
 }
 
 #box-3 {
@@ -112,34 +112,4 @@ p   {font-family: Futura; padding: 10px;
 	font-family: Futura;
 	font-size: 75px;
 	color: black;
-}
-#animation {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-    animation-delay: 2s;
-}
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
