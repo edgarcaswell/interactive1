@@ -1,8 +1,14 @@
 
 .square{
-	height:100px;
-	width:100px;
+	height:125px;
+	width:125px;
 	float: left;
 	background-color: blue;
 	margin:5px;
+}
+
+#first hover {
+	background: yellow;
+	cursor: help;
+	
 }
