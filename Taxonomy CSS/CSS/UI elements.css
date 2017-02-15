@@ -1,2 +1,8 @@
-body {background: ; color: red;}
-p {font-family: Futura; font-size: 100px; color: red;}
+
+.square{
+	height:100px;
+	width:100px;
+	float: left;
+	background-color: blue;
+	margin:5px;
+}
