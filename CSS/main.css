@@ -1,13 +1,13 @@
 
 body {
 	font-family: Futura; 
-	color: #FF6155; 
+	color: black; 
 	background: url("img/cat.jpg");
 	background: cover;
 }
 
 h1 { 
 	font-family: Futura; 
-	font-size: 70px; 
+	font-size: 25px; 
 	color: red;
 }
