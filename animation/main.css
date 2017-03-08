@@ -9,10 +9,10 @@ body {
 
 	padding-left: 10px;
 	position: fixed;
-	/*top: 20px;
+	top: 20px;
 	left: 50px;
 	transform: rotate(90deg);
-	transform-origin: top left;*/
+	transform-origin: top left;
 }
 
 #cat_diagram{
