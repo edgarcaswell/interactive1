@@ -15,9 +15,28 @@ body {
 	transform-origin: top left;
 }
 
-#artbord1: hover{
+#artbord1: hover img {
 	
-	opacity: 0%;
+	opacity: 1;
+	transition: transform .2s ease-in-out;
+	padding: 40px;
+	margin left: 25px;
+    
+}
+
+#artbord2: hover img {
+	
+	opacity: 1;
+	transition: transform .2s ease-in-out;
+	padding: 40px;
+	margin left: 25px;
+    
+}
+
+#artbord3: hover img {
+	
+	opacity: 1;
+	transition: transform .2s ease-in-out;
 	padding: 40px;
 	margin left: 25px;
     
