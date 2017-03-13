@@ -5,8 +5,23 @@ body {
     color: black;
 }
 
-#title{
+/* 
+adding this selector 
+which targets each element
+with the class .containers
+let's us center them by giving
+it a margin of auto (left and
+right margins are made equal)
+and a width equal to the
+image width
+*/
 
+.containers {
+	margin: auto;
+	width: 780px;
+}
+
+#title{
 	padding-left: 10px;
 	position: fixed;
 	top: 20px;
@@ -15,29 +30,70 @@ body {
 	transform-origin: top left;
 }
 
-#artbord1: hover img {
-	
-	opacity: 1;
-	transition: transform .2s ease-in-out;
-	padding: 40px;
-	margin left: 25px;
-    
+#artboard1{
+	background-color: yellow;
+	width: 700px;
+	transition-property: all;
+	transition-duration: 2s;	
 }
 
-#artbord2: hover img {
-	
-	opacity: 1;
-	transition: transform .2s ease-in-out;
-	padding: 40px;
-	margin left: 25px;
-    
+#artboard1:hover{
+	background-color: blue;
 }
 
-#artbord3: hover img {
-	
-	opacity: 1;
-	transition: transform .2s ease-in-out;
-	padding: 40px;
-	margin left: 25px;
-    
+#artboard2{
+	transition-property: all;
+	transition-duration: 2s;
+}
+
+/* 
+to get this working 
+i deleted the space 
+between and the colon
+*/
+
+#artboard2:hover{
+	width: 600px;
+}
+
+/* 
+to keep the margin even
+on the left and right
+(centered) use padding
+to adjust the images 
+positions rather then 
+using the margin 
+*/
+
+#artboard3{
+	padding-left: 25px;
+}
+
+/* 
+if you want to adjust the 
+position elements i'd suggest
+trying to use the 'transform'
+property and then 'translate'
+the elements position
+*/
+
+#artboard3:hover{
+	transform: translateX(50px);
+}
+
+
+#artboard4{
+	padding-left: 25px;
+}
+
+#artboard5{
+	padding-left: 25px;    
+}
+
+#artboard6{
+	padding-left: 25px;
+}
+
+#artboard7{
+	padding-left: 25px;    
 }
