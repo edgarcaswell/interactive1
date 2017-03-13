@@ -15,9 +15,10 @@ body {
 	transform-origin: top left;
 }
 
-#cat_diagram{
+#artbord1: hover{
+	
+	opacity: 0%;
 	padding: 40px;
 	margin left: 25px;
-    -webkit-transition: width 2s;
-    transition: width 2s;
+    
 }
