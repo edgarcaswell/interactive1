@@ -32,13 +32,13 @@ image width
 
 #artboard1{
 	background-color: yellow;
-	width: 700px;
+	width: 800px;
 	transition-property: all;
 	transition-duration: 2s;	
 }
 
 #artboard1:hover{
-	background-color: blue;
+	background-color: red;
 }
 
 #artboard2{
@@ -66,7 +66,10 @@ using the margin
 */
 
 #artboard3{
-	padding-left: 25px;
+	padding-left: 60px;
+	
+	/*transition: width 2s linear 1s*/
+	
 }
 
 /* 
@@ -78,20 +81,25 @@ the elements position
 */
 
 #artboard3:hover{
-	transform: translateX(50px);
+
+	/*transform: translateX(50px)*/
+	
+	
+
 }
 
 
 #artboard4{
-	padding-left: 25px;
+	padding-left: 55px;
+	width: 850px;
 }
 
 #artboard5{
-	padding-left: 25px;    
+	padding-left: 75px;    
 }
 
 #artboard6{
-	padding-left: 25px;
+	padding-left: -35px;
 }
 
 #artboard7{
