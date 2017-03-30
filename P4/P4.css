@@ -2,13 +2,23 @@ body {
     text-align: left;
     font-family: Helvetica;
     background-color: blue;
-    color: black;
+    color: red;
+    text-align: center;
 }
 
 #kitty.png{
 
-	width: 800px;
-	height: 300px;
+	padding-left: 300px;
+	margin-left: 400px;
 	
+}
+
+#text{
+
+	font-family: Helvetica;
+	font-size: 100px;
+	font-color: red;
+	text-align: center;
+
 
 }
