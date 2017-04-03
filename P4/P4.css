@@ -5,6 +5,7 @@ body {
     color: red;
     position:;
     transform: rotate();
+    font-size: 22px;
 }
 
 /*#kitty.png {
@@ -53,7 +54,7 @@ body {
 }
 
 }
-h1 {
+#title {
   text-align:center;
 }
 .container {
