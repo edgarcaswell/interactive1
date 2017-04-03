@@ -76,7 +76,7 @@ label {
   cursor:pointer;
 }
 input[type="radio"][id="blue"]:checked + label {
-  background:#6666ff;
+  background:#BE1E2D;
 }
 input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {
   width:0;
@@ -86,7 +86,7 @@ input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:ch
   opacity:0;
 }
 input[type="radio"][id="red"]:checked + label {
-  background:#ff4466;
+  background:#FFCE00;
 }
 input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {
   width:0;
@@ -96,7 +96,7 @@ input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:che
   opacity:0;
 }
 input[type="radio"][id="green"]:checked + label {
-  background:#66dd99;
+  background:#00A79D;
 }
 input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {
   width:0;
