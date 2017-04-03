@@ -10,6 +10,21 @@ body {
 #kitty.png {
 
 	padding-left: 200px;
+	margin-top: 100px;
+	margin-left: 100px;
+	position: absolute;
+}
+
+#burger.png {
+
+	position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+
+}	
+
 		
 }
 
@@ -95,11 +110,11 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
   padding:0.5%;
 }
 .green {
-  background:#66dd99;
+  background:white;
 }
 .blue {
-  background:#6666ff;
+  background:white;
 }
 .red {
-  background:#ff4466;
+  background:white;
 }
