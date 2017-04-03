@@ -1,24 +1,33 @@
 body {
     text-align: left;
     font-family: Helvetica;
-    background-color: blue;
+    background-color: white;
     color: red;
-    text-align: center;
+    position:;
+    transform: rotate();
 }
 
-#kitty.png{
+#kitty.png {
 
-	padding-left: 300px;
-	margin-left: 400px;
-	
+	padding-left: 200px;
+		
 }
 
-#text{
+#text {
 
 	font-family: Helvetica;
-	font-size: 100px;
-	font-color: red;
-	text-align: center;
+	font-size: 50px;
+	color: red;
+	text-align: left;
+	position:;
+	opacity: 1;
+}
 
+#text:hover {
 
+	background-color: ;
+	transform: rotate();
+	opacity: ;
+	transition-delay: 1s;
+	transition-property: ease-in;
 }
