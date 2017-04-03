@@ -55,7 +55,8 @@ body {
 
 }
 #title {
-  text-align:center;
+	text-shadow: 10px;
+  	transform: rotate(deg);
 }
 .container {
   width:90%;
