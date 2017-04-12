@@ -1,13 +1,40 @@
 
 body {
-	font-family: Futura; 
+	font-family: Helvetica; 
 	color: black; 
-	background: url("img/cat.jpg");
-	background: cover;
-}
+	}
 
 h1 { 
-	font-family: Futura; 
+	font-family: Helvetica; 
 	font-size: 25px; 
 	color: red;
+}
+
+#background{
+
+	background: url();
+	background-image: url(img/AMERICA.png);
+	width:900px;
+	height:300px;
+	position: center;
+
+
+}
+
+#eddie{
+
+	background-image: url();
+	width: 800px;
+	height: 400px;
+	
+}
+
+#exercises{
+
+	color: #3878FE;
+}
+
+#projects{
+
+	color: #3878FE;
 }
