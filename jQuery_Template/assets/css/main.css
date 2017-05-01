@@ -1,0 +1,26 @@
+* {margin: 0px; padding 0px;}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+
+	background: black;
+}
+
+#content {
+	color: white;
+	font-size: 100px;
+	font-family: Courier;
+}
+
+#pass {
+	font-size: 50px;
+	text-align: center;
+	line-height: 100vh;
+	color: white;
+	opacity: 0;
+}
+
+
+
