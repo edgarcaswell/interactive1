@@ -16,6 +16,18 @@ body {
 	z-index: 0;
 }
 
+#subtitle{
+
+	padding-left: 10px;
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	/*transform: rotate(180deg);
+	transform-origin: top;*/
+	font-size: 20px;
+	font-family: consolas, "andale mono";
+	color: white;
+}
 #trail{
 	
 	position: absolute;
@@ -28,7 +40,7 @@ body {
 
 #info{
 
-	padding-top: 200px;
+	padding-top: 250px;
 	left: 635px;
 	width: 300px;
 	height:300px;
@@ -37,11 +49,12 @@ body {
 	font-family: consolas, "andale mono";
 	color: white;
 	z-index: 5;
+
 }
 
 #info2{
 
-	padding-top: 125px;
+	padding-top: 200px;
 	left: 635px;
 	position: absolute;
 	font-size: 15px;
@@ -53,7 +66,7 @@ body {
 
 #info3{
 
-	padding-top: 200px;
+	padding-top: 250px;
 	left: 1600px;
 	width: 300px;
 	height:300px;
@@ -66,7 +79,7 @@ body {
 
 #info4{
 
-	padding-top: 200px;
+	padding-top: 250px;
 	left: 2600px;
 	width: 300px;
 	height:300px;
@@ -78,7 +91,7 @@ body {
 }
 #info5{
 
-	padding-top: 125px;
+	padding-top: 200px;
 	left: 3700px;
 	position: absolute;
 	font-size: 15px;
@@ -88,7 +101,7 @@ body {
 }
 #info6{
 
-	padding-top: 200px;
+	padding-top: 250px;
 	left: 3600px;
 	width: 300px;
 	height:300px;
@@ -100,7 +113,7 @@ body {
 }
 #info7{
 
-	padding-top: 200px;
+	padding-top: 250px;
 	left: 4600px;
 	width: 300px;
 	height:300px;
