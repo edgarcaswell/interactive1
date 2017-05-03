@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 		$('#content') .css('color', 'rgb('+n+','+n+','+n+')');
 
-		// $('#body') .css('background-color', 'rgb('+redValue+','+blueValue+','+redValue+')');
+		$('#body') .css('background-color', 'rgb('+redValue+','+blueValue+','+redValue+')');
 
 		alert(n);
 

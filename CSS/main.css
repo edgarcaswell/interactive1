@@ -1,11 +1,11 @@
 
 body {
-	font-family: Helvetica; 
+	font-family: consolas, "andale mono"; 
 	color: black; 
 	}
 
 h1 { 
-	font-family: Helvetica; 
+	font-family: consolas, "andale mono";
 	font-size: 25px; 
 	color: red;
 }

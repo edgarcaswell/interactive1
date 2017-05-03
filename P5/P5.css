@@ -22,12 +22,11 @@ body {
 	position: fixed;
 	top: 50px;
 	left: 100px;
-	/*transform: rotate(180deg);
-	transform-origin: top;*/
 	font-size: 20px;
 	font-family: consolas, "andale mono";
 	color: white;
 }
+
 #trail{
 	
 	position: absolute;
@@ -54,7 +53,7 @@ body {
 
 #info2{
 
-	padding-top: 200px;
+	padding-top: 215px;
 	left: 635px;
 	position: absolute;
 	font-size: 15px;
