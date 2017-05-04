@@ -1,6 +1,6 @@
 body {
 	height: 100vh;
-	width: 400vw;
+	width: 445vw;
 }
 
 #title{
@@ -26,6 +26,58 @@ body {
 	font-family: consolas, "andale mono";
 	color: white;
 }
+#subtitle2{
+
+	padding-left: 10px;
+	position: fixed;
+	top: 80px;
+	left: 100px;
+	font-size: 15px;
+	font-family: consolas, "andale mono";
+	color: white;
+}
+#subtitle3{
+
+	padding-left: 10px;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	font-size: 15px;
+	font-family: consolas, "andale mono";
+	color: white;
+}
+
+#subtitle4{
+
+	padding-left: 10px;
+	position: fixed;
+	top: 120px;
+	left: 100px;
+	font-size: 15px;
+	font-family: consolas, "andale mono";
+	color: white;
+}
+#subtitle5{
+
+	padding-left: 10px;
+	position: fixed;
+	top: 140px;
+	left: 100px;
+	font-size: 15px;
+	font-family: consolas, "andale mono";
+	color: white;
+}
+#subtitle6{
+
+	padding-left: 10px;
+	position: fixed;
+	top: 160px;
+	left: 100px;
+	font-size: 15px;
+	font-family: consolas, "andale mono";
+	color: white;
+}
+
 
 #trail{
 	
@@ -114,6 +166,18 @@ body {
 
 	padding-top: 250px;
 	left: 4600px;
+	width: 300px;
+	height:300px;
+	position: absolute;
+	font-size: 14px;
+	font-family: consolas, "andale mono";
+	color: white;
+	z-index: 5;
+}
+#info8{
+
+	padding-top: 250px;
+	left: 5600px;
 	width: 300px;
 	height:300px;
 	position: absolute;
